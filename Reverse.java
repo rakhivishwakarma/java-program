@@ -5,7 +5,7 @@ class Reverse
   int a=54;
   int first=a/10;
   int last=a%10;
-  int rev=last*10+rev;
+  int rev=last*10+first;
   System.out.print("Reverse="+rev);
  }
 }
